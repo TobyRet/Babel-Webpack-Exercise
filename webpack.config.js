@@ -1,9 +1,9 @@
 module.exports = {
   entry: [
-    __dirname + '/src/components/main.js'
+    __dirname + '/src/components/app.jsx'
   ],
   module: {
-    test: /\.js$/,
+    test: /\.jsx$/,
     loaders: [{
       loader: 'babel',
       query: {
